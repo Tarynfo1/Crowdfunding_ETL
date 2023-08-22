@@ -5,11 +5,13 @@ In this project an ETL pipeline was built using Python, Pandas and Python dictio
 
 
 ***
-#### Tools:
+#### Tools/modules Required:
 - Python
 - Pandas
 - Jupyter Notebook
-- PostgreSQL 
+- PostgreSQL
+- json module
+- datetime module
 
 
 ***
@@ -19,7 +21,9 @@ In this project an ETL pipeline was built using Python, Pandas and Python dictio
 - **Sameer_Hooda_ETL_Mini_Project_Starter_Code.ipynb**: Part 2 of code - Dataframe containing clean campaign information<br> For this section, we copied the crowdfunding dataframe into campaign dataframe. After that we renamed the blurb,launched_at and deadline columns. Converted the datatype of goal and pledged columns. After that change the format of the date in launched_date and end_date and merged the dataFrame with category and sub category dataframe and exported as a csv file.
 
 - **Mohamed_ETL_Mini_Project_Starter_Code.ipynb**: Part 3 of code - Dataframe containing contact information for campaign pledges<br>
-
+Extracted and transformed the data from the contacts.xlsx Excel data Using Python dictionary methods.<br>
+Splited each "name" column value into a first and last name, and placeed each in a new column.<br>
+Cleaned and exported the DataFrame as contacts.csv <br>
 #### - Resources
 - campaign.csv<br>
 - category.csv<br>
