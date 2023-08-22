@@ -25,10 +25,10 @@ Extracted and transformed the data from the contacts.xlsx Excel data Using Pytho
 Splited each "name" column value into a first and last name, and placed each in a new column.<br>
 Cleaned and exported the DataFrame as contacts.csv <br>
 #### - Resources
-- campaign.csv<br>
-- category.csv<br>
-- contacts.csv<br>
-- contacts.xlsx<br>
-- crowdfunding.xlsx<br>
-- subcategory.csv<br>
+- campaign.csv --- outputfile<br>
+- category.csv ---- ouptutfile<br>
+- contacts.csv --- outputfile<br>
+- contacts.xlsx --- inputfile<br>
+- crowdfunding.xlsx --- inputfile<br>
+- subcategory.csv --- outputfile<br>
 - 
