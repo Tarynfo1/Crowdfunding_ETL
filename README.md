@@ -22,7 +22,7 @@ In this project an ETL pipeline was built using Python, Pandas and Python dictio
 
 - **Mohamed_ETL_Mini_Project_Starter_Code.ipynb**: Part 3 of code - Dataframe containing contact information for campaign pledges<br>
 Extracted and transformed the data from the contacts.xlsx Excel data Using Python dictionary methods.<br>
-Splited each "name" column value into a first and last name, and placeed each in a new column.<br>
+Splited each "name" column value into a first and last name, and placed each in a new column.<br>
 Cleaned and exported the DataFrame as contacts.csv <br>
 #### - Resources
 - campaign.csv<br>
