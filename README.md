@@ -31,4 +31,3 @@ Cleaned and exported the DataFrame as contacts.csv <br>
 - contacts.xlsx --- inputfile<br>
 - crowdfunding.xlsx --- inputfile<br>
 - subcategory.csv --- outputfile<br>
-- 
