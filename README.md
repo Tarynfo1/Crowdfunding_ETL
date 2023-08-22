@@ -5,10 +5,20 @@ In this project an ETL pipeline was built using Python, Pandas and Python dictio
 
 
 ***
+#### Tools:
+- Python
+- Pandas
+- Jupyter Notebook
+- PostgreSQL 
+
+
+***
 #### Starter_Files:
-- Taryn_ETL_Mini_Project_Starter_Code.ipynb: Part 1 of code - Crowdfunding data and pledging categories/subcategories data
-- Sameer_Hooda_ETL_Mini_Project_Starter_Code.ipynb: Part 2 of code - Dataframe containing clean campaign information<br>
-- Mohamed_ETL_Mini_Project_Starter_Code.ipynb: Part 3 of code - Dataframe containing contact information for campaign pledges<br>
+- **Taryn_ETL_Mini_Project_Starter_Code.ipynb**: Part 1 of code - Crowdfunding data and pledging categories/subcategories data. For this section, Excel data was converted to a pandas DataFrame, the data type was checked and columns were split into lists and exported into a csv file for further analysis.
+
+- **Sameer_Hooda_ETL_Mini_Project_Starter_Code.ipynb**: Part 2 of code - Dataframe containing clean campaign information<br>
+
+- **Mohamed_ETL_Mini_Project_Starter_Code.ipynb**: Part 3 of code - Dataframe containing contact information for campaign pledges<br>
 
 #### - Resources
 - campaign.csv<br>
@@ -16,4 +26,5 @@ In this project an ETL pipeline was built using Python, Pandas and Python dictio
 - contacts.csv<br>
 - contacts.xlsx<br>
 - crowdfunding.xlsx<br>
-- subcategory.csv
+- subcategory.csv<br>
+- 
