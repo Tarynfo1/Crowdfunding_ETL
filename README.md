@@ -26,7 +26,7 @@ Extracted and transformed the data from the contacts.xlsx Excel data Using Pytho
 Splited each "name" column value into a first and last name, and placed each in a new column.<br>
 Cleaned and exported the DataFrame as contacts.csv <br>
 
-- **Crowdfunding_Db**:  - Inspected the four CSV files, and then sketched an ERD of the tables by using QuickDBD. <br>
+- **crowdfunding_db_schema.sql**:  - Inspected the four CSV files, and then sketched an ERD of the tables by using QuickDBD. <br>
   saved the data model image as QuickDBD-crowdfunding_db_schema.png. <br>
   saved the schema as QuickDBD-crowdfunding_db_schema.sql. <br>
   Created a new Postgres database, named crowdfunding_db. <br>
