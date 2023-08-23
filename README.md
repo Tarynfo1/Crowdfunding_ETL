@@ -12,6 +12,7 @@ In this project an ETL pipeline was built using Python, Pandas and Python dictio
 - PostgreSQL
 - json module
 - datetime module
+- PgAdmin4
 
 
 ***
