@@ -1,4 +1,5 @@
---After creating the database crowfunding_db, creating tables
+--After creating the database crowfunding_db, creating tables using 
+--the exported QuickDBD-crowdfunding_db_schema
 
 CREATE TABLE "category" (
     "category_id" varchar(100)   NOT NULL,
@@ -61,37 +62,13 @@ SELECT * FROM subcategory
 SELECT * FROM contacts
 SELECT * FROM campaign
 
---importing data to tables from csvfiles. 
---changed the security features of the resources folder to everyone to be able to use copy statement
--- in query tool
--- reference:
---(https://stackoverflow.com/questions/54031813/i-am-trying-to-copy-a-file-but-getting-error-message)
-
-COPY category
-FROM 'C:\Users\user\Desktop\Crowdfunding_ETL\Starter_Files\Resources\category.csv'
-DELIMITER ','
-CSV HEADER;
+-- after Importing the data using the python code in mohamed jupyter notebook
 
 SELECT * FROM category
 
-COPY subcategory
-FROM 'C:\Users\user\Desktop\Crowdfunding_ETL\Starter_Files\Resources\subcategory.csv'
-DELIMITER ','
-CSV HEADER;
-
 SELECT * FROM subcategory
 
-COPY contacts
-FROM 'C:\Users\user\Desktop\Crowdfunding_ETL\Starter_Files\Resources\contacts.csv'
-DELIMITER ','
-CSV HEADER;
-
 SELECT * FROM contacts
-
-COPY campaign
-FROM 'C:\Users\user\Desktop\Crowdfunding_ETL\Starter_Files\Resources\campaign.csv'
-DELIMITER ','
-CSV HEADER;
 
 SELECT * FROM campaign
 
