@@ -13,6 +13,8 @@ In this project an ETL pipeline was built using Python, Pandas and Python dictio
 - json module
 - datetime module
 - PgAdmin4
+- sqlalchemy
+- pyscopg2
 
 
 ***
@@ -31,10 +33,8 @@ Cleaned and exported the DataFrame as contacts.csv <br>
   saved the schema as QuickDBD-crowdfunding_db_schema.sql. <br>
   Created a new Postgres database, named crowdfunding_db. <br>
   Used QuickDBD-crowdfunding_db_schema.sql to create tables in the crowfunding_db. <br>
-  Imported each CSV file into its corresponding SQL table using the COPY statement in the query tool.<br>
+  Imported each CSV file into its corresponding SQL table through the pyhton code.<br>
   saved the complete schema file as crowdfunding_db_schema.sql.<br>
-  changed the security settings of the resource folder to "Everyone" to use copy statment in query tool.<br>
-  refrence : "https://stackoverflow.com/questions/54031813/i-am-trying-to-copy-a-file-but-getting-error-message" <br>
   verified tables creation and data importation using select * from table_name <br>
 
 <br>
