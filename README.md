@@ -32,7 +32,7 @@ Cleaned and exported the DataFrame as contacts.csv <br>
   saved the data model image as QuickDBD-crowdfunding_db_schema.png. <br>
   saved the schema as QuickDBD-crowdfunding_db_schema.sql. <br>
   Created a new Postgres database, named crowdfunding_db. <br>
-  Used QuickDBD-crowdfunding_db_schema.sql to create tables in the crowfunding_db. <br>
+  Used QuickDBD-crowdfunding_db_schema.sql to create tables in the crowfunding_db. and saved it as crowdfunding_db_schema.sql. <br>
   Imported each CSV file into its corresponding SQL table through the pyhton code.<br>
   saved the complete schema file as crowdfunding_db_schema.sql.<br>
   verified tables creation and data importation using select * from table_name <br>
